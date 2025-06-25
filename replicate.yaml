@@ -1,0 +1,12 @@
+# replicate.yaml
+input:
+  audio_path:
+    type: path
+    description: "ไฟล์เสียง (mp3 หรือ wav)"
+  image_path:
+    type: path
+    description: "ไฟล์ภาพหน้าตรง (jpg หรือ png)"
+
+output:
+  type: path
+  description: "วิดีโอที่พูดตามเสียง - output.mp4"
